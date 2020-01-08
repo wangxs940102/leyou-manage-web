@@ -62,16 +62,17 @@
 </template>
 
 <script>
+  import MyBrandForm from './MyBrandForm'
   export default {
     name: "MyBrand",
     data() {
       return {
         headers: [
-          {text: "id", value: "id", align: 'center', sortable: true},
-          {text: "名称", value: "name", align: 'center', sortable: false},
-          {text: "LOGO", value: "image", align: 'center', sortable: false},
-          {text: "首字母", value: "letter", align: 'center', sortable: true},
-          {text: "操作", align: 'center', sortable: false},
+          {text: "品牌id", value: "id", align: 'center', sortable: true},
+          {text: "品牌名称", value: "name", align: 'center', sortable: false},
+          {text: "品牌LOGO", value: "image", align: 'center', sortable: false},
+          {text: "品牌首字母", value: "letter", align: 'center', sortable: true},
+          //{text: "操作", align: 'center', sortable: false},
         ],
         brands:[
         ],
